@@ -38,7 +38,7 @@ void print_memory(const void *addr, size_t size)
         while (j < 16)
         {
             write(1, "  ", 2);
-            if (j % 2 == 0)
+            if (j % 2)
                 ft_putchar(32);
             j++;
         }
