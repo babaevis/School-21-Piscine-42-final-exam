@@ -8,7 +8,7 @@ char	*ft_itoa_base(int value, int base)
 	int i = 0;
 	int k;
 	if (value == 0)
-		return 0;
+		return "0";
 	if (value == -2147483648)
 		return "-2147483648";
 	if (value < 0 && base != 10)
